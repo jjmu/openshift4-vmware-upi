@@ -7,8 +7,8 @@ all:
     ova_remote_sha256: https://mirror.openshift.com/pub/openshift-v4/dependencies/rhcos/latest/latest/sha256sum.txt
     ova_local_path: /tmp/rhcos-vmware.x86_64.ova
     ova_vm_name: rhcos-vmware.x86_64-alice
-    cluster_name: alice
-    base_domain: alice.ocp.pwc.umbrella.local
+    cluster_name: pna
+    base_domain: na.sbicdirectory.com
     dhcp_server_dns_servers: 172.16.10.11
     dhcp_server_gateway: 172.16.10.254
     dhcp_server_subnet_mask: 255.255.255.0
